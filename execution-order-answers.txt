@@ -20,14 +20,10 @@ Math.sum([1, 2, 3, 4]
 "hello".subString(0, 3).length
 "hello"
 // => "hello"
-"hello".substring(0)
-// => "h"
-"hello".substring(3)
-// => "l"
 "hello".substring(0, 3)
-// => "h, l"
+// => "hell"
 hello.substring(0.3).length
-// => 2
+// => 4
 
 
 
@@ -35,16 +31,17 @@ hello.substring(0.3).length
 "hello".subString(0, 3 - 1).length + "world"
 "hello"
 // => hello
-"hello".subString(0)
-// => "h"
-"hello".substring(3 - 1)
+"hello".substring(0. 3 - 1)
 // => 2
-"hello".substring(2)
-// => "l"
+"hello".substring(0, 2)
+// => "hel"
 hello.substring(0, 2).length
-// => 2
+// => 3
 2 + "world"
-// => "2world"
+// => "3world"
+
+
+
 
 { hello: "wor" + "ld" }
 hello
