@@ -52,7 +52,7 @@ hello
 "wor" + "ld"
 // => "world"
 { hello: "world"}
-// => object {hello: "world"}
+// => {hello: "world"}
 
 
 
