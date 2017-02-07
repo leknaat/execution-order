@@ -20,6 +20,10 @@ Math.sum([1, 2, 3, 4]
 "hello".subString(0, 3).length
 "hello"
 // => "hello"
+0
+// => 0
+3
+// => 3
 "hello".substring(0, 3)
 // => "hell"
 hello.substring(0.3).length
@@ -31,7 +35,9 @@ hello.substring(0.3).length
 "hello".subString(0, 3 - 1).length + "world"
 "hello"
 // => hello
-"hello".substring(0. 3 - 1)
+0
+// => 0
+3 - 1
 // => 2
 "hello".substring(0, 2)
 // => "hel"
